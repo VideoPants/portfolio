@@ -1,0 +1,133 @@
+body {
+    margin: 0;
+    font-family: 'Segoe UI', sans-serif;
+    background-color: #121212;
+    color: #e0e0e0;
+}
+
+header, footer {
+    background-color: #1e1e1e;
+    padding: 1rem;
+    text-align: center;
+}
+
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.nav-links {
+    list-style: none;
+    display: flex;
+    gap: 1rem;
+}
+
+.nav-links a {
+    color: #e0e0e0;
+    text-decoration: none;
+    transition: color 0.3s;
+}
+
+.nav-links a:hover {
+    color: #64ffda;
+}
+
+.intro, .section {
+    padding: 2rem;
+    border-bottom: 1px solid #333;
+}
+
+.intro {
+    text-align: center;
+}
+
+footer .social-links a {
+    margin: 0 0.5rem;
+    color: #64ffda;
+    text-decoration: none;
+}
+
+img {
+    width: 200px;
+    display: block;
+    margin: 0 auto;
+}
+
+/* Skills Section */
+.skills-vertical {
+    list-style: none;
+    padding: 0;
+    margin: 0 auto; /* This centers it horizontally */
+    max-width: 500px;
+    width: 100%;
+}
+
+.skills-vertical li {
+    padding: 0.75rem 0;
+    border-bottom: 1px solid #333;
+    font-size: 1rem;
+}
+
+.skills-vertical li:last-child {
+    border-bottom: none;
+}
+
+.skills-vertical li:hover {
+    background-color: #1f1f1f;
+    transition: background 0.3s;
+}
+
+.skill-label {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 0.25rem;
+}
+
+.skill-bar {
+    background: #2a2a2a;
+    border-radius: 5px;
+    height: 8px;
+    overflow: hidden;
+    margin-bottom: 1rem;
+}
+
+.skill-level {
+    height: 100%;
+    background: #64ffda;
+    width: 0;
+    transition: width 1s ease-in-out;
+}
+
+.stars {
+    font-family: monospace;
+    color: #FFD700;
+}
+
+/* Experience Section */
+.experience-scroll {
+    display: flex;
+    overflow-x: auto;
+    gap: 1rem;
+    padding-bottom: 1rem;
+    scroll-snap-type: x mandatory;
+}
+
+.experience-card {
+    min-width: 300px;
+    background-color: #1e1e1e;
+    padding: 1.5rem;
+    border-radius: 10px;
+    flex-shrink: 0;
+    scroll-snap-align: start;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.3);
+}
+
+.experience-card h3 {
+    margin-top: 0;
+}
+
+.exp-date {
+    font-size: 0.9rem;
+    color: #888;
+}
