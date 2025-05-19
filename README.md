@@ -34,6 +34,7 @@ The primary goal is to provide an elegant and professional online presence, enab
 - Enhanced animations and project filters
 
 ## 📫 Live Demo / Deployment:
+- Work in progress
 
 ## 📎 Contact
 - Email: [aliwasti786@gmail.com]()
