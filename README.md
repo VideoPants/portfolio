@@ -22,6 +22,7 @@ The primary goal is to provide an elegant and professional online presence, enab
 - **Backend**: Java, Spring Boot
 - **Version Control**: Git & GitHub
 - **Build Tool**: Maven
+- **Email Service**: Spring Boot Starter Email
 - **Frameworks & Libraries**:
   - Spring Web
   - Spring Boot DevTools
@@ -30,11 +31,11 @@ The primary goal is to provide an elegant and professional online presence, enab
 ## 🚀 Future Enhancements:
 - Load experience and project data dynamically from JSON files or a database
 - Theme switcher (Dark/Light)
-- Contact form with backend email integration
 - Enhanced animations and project filters
+- Improved Frontend Interface and Experience (UI/UX) with modern JavaScript frameworks
 
 ## 📫 Live Demo / Deployment:
-- Work in progress
+- **Work in progress** - Currently hosted on local server for development purposes.
 
 ## 📎 Contact
 - Email: [aliwasti786@gmail.com]()
