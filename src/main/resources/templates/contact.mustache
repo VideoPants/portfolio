@@ -14,14 +14,17 @@
         <section class="section">
             <h2>Contact Me</h2>
 
-            <p><strong>Email:</strong> <a href="mailto:aliwasti786@gmail.com">aliwasti786@gmail.com</a></p>
-            <p><strong>Phone:</strong> +971501331786</p>
-            <p><strong>Location:</strong> Al Nahda 2, Dubai, United Arab Emirates</p>
+            <form action="/contact" method="post">
+              <input type="text" name="name" placeholder="Your Name" required>
+              <input type="text" name="subject" placeholder="Subject">
+              <input type="email" name="email" placeholder="Your Email" required>
+              <textarea name="message" placeholder="Your Message" required></textarea>
+              <button type="submit">Send</button>
+            </form>
 
-            <div class="social-links">
-                <a href="https://github.com/VideoPants" target="_blank">GitHub</a> |
-                <a href="https://www.linkedin.com/in/syed-ali-mustafa-wasti-34723b283/" target="_blank">LinkedIn</a>
-            </div>
+            {{#success}}
+              <p style="color:green;">{{success}}</p>
+            {{/success}}
         </section>
     </main>
 
