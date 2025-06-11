@@ -31,7 +31,7 @@ The primary goal is to provide an elegant and professional online presence, enab
 ## 🚀 Future Enhancements:
 - Load experience and project data dynamically from JSON files or a database
 - Theme switcher (Dark/Light)
-- Enhanced animations and project filters
+- Enhanced animations and filters
 - Improved Frontend Interface and Experience (UI/UX) with modern JavaScript frameworks
 
 ## 📫 Live Demo / Deployment:

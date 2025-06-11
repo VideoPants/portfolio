@@ -8,13 +8,14 @@
 </head>
 
 <body>
-    {{> header}}
+{{> header}}
 
-    <main>
-        <section class="section">
-            <h2>Projects</h2>
+<main>
+    <section class="section" id="projects">
+        <h2>Projects:   </h2>
 
-            <div class="project">
+        <a href="https://github.com/RIT-D/projects-flightsync" target="_blank">
+            <div class="project-card">
                 <h3>FlightSync – Flight Search and Payment Website</h3>
                 <p>Designed a fully functional flight search and payment portal using:</p>
 
@@ -23,29 +24,41 @@
                     <li>Flight API Integration</li>
                     <li>MariaDB</li>
                     <li>HTML & CSS</li>
+                    <li>Javascript</li>
                 </ul>
-
-                <a href="https://github.com/RIT-D/projects-flightsync" target="_blank">View Repository</a>
             </div>
+        </a>
 
-            <div class="project">
-                <h3>The Light and Darkness of the Universe</h3>
-                <p>Developed a website exploring the mysteries of space using HTML and CSS.</p>
-
-                <a href="https://github.com/VideoPants/The-Light-and-Darkness-of-the-Universe" target="_blank">View Repository</a>
-            </div>
-
-            <div class="project">
+        <a href="https://github.com/VideoPants/Banking-Data-Visualizer" target="_blank">
+            <div class="project-card">
                 <h3>Banking Data Visualizer</h3>
-                <p>Created a Python program to process CSV files and generate various graphs representing banking data.</p>
+                <p>Created a Python program to process CSV files and generate various graphs representing banking data using:</p>
 
-                <a href="https://github.com/VideoPants/Banking-Data-Visualizer" target="_blank">View Repository</a>
+                <ul>
+                    <li>Python</li>
+                    <li>Pandas</li>
+                    <li>Matplotlib</li>
+                    <li>Seaborn</li>
+                </ul>
             </div>
-        </section>
-    </main>
+        </a>
 
-    {{> footer}}
+        <a href="https://github.com/VideoPants/The-Light-and-Darkness-of-the-Universe" target="_blank">
+            <div class="project-card">
+                <h3>The Light and Darkness of the Universe</h3>
+                <p>Developed a website exploring the mysteries of space using:</p>
 
-    <script src="/js/main.js"></script>
+                <ul>
+                    <li>HTML & CSS</li>
+                </ul>
+            </div>
+        </a>
+
+    </section>
+</main>
+
+{{> footer}}
+
+<script src="/js/main.js"></script>
 </body>
 </html>
